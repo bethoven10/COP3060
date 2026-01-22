@@ -8,6 +8,7 @@
 <body>
     <h1>Sign Up Form</h1>
 
+    <!-- Form Section -->
     <form action="#" method="post">
         <!-- Text Fields -->
         <label for="firstName">First Name:</label>
@@ -47,6 +48,37 @@
         <!-- Submit Button -->
         <input type="submit" value="Submit">
     </form>
+
+    <hr>
+
+    <!-- Table Section -->
+    <h2>KMKZ Products</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Jackets</th>
+                <th>Pants</th>
+                <th>Other</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Snow Jacket</td>
+                <td>Snow Pants</td>
+                <td>Winners Circle Tee</td>
+            </tr>
+            <tr>
+                <td>Leopard Jacket</td>
+                <td>Skeleton Pants</td>
+                <td>Members Only Tee</td>
+            </tr>
+            <tr>
+                <td>Skeleton Jacket</td>
+                <td>KMKZ Sweatpants</td>
+                <td>Kami Bag</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>
 

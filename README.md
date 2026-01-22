@@ -1,2 +1,2 @@
 # COP3060
-Classwork
+Homework involving creating an HTML file

@@ -1,1 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PA01 Part 2</title>
+</head>
+<body>
+    <h1>Sign Up Form</h1>
+
+    <form action="#" method="post">
+        <!-- Text Fields -->
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required><br><br>
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <!-- Password Field -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <!-- Radio Buttons -->
+        <p>Are you in school?</p>
+        <input type="radio" id="schoolYes" name="inSchool" value="Yes" required>
+        <label for="schoolYes">Yes</label>
+        <input type="radio" id="schoolNo" name="inSchool" value="No">
+        <label for="schoolNo">No</label><br><br>
+
+        <!-- Checkbox -->
+        <input type="checkbox" id="ateToday" name="ateToday">
+        <label for="ateToday">Have you eaten today?</label><br><br>
+
+        <!-- Dropdown Selection -->
+        <label for="socialMedia">Favorite social media:</label>
+        <select id="socialMedia" name="socialMedia" required>
+            <option value="">--Select--</option>
+            <option value="Instagram">Instagram</option>
+            <option value="Snapchat">Snapchat</option>
+            <option value="TikTok">TikTok</option>
+            <option value="YouTube">YouTube</option>
+        </select><br><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
 
